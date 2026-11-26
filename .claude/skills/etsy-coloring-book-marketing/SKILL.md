@@ -57,15 +57,15 @@ Organize **Shop Sections by buyer/job** (Kids, Adults & Relaxation, Teachers & C
 
 | Option | Price | Per book |
 |---|---|---|
-| Single book | $4.99 | $4.99 |
-| 3-book bundle | $9.99 | $3.33 |
-| **Mega bundle (10 books)** ⭐ | **$19.99** | **$2.00** |
+| Single book | USD 4.99 | USD 4.99 |
+| 3-book bundle | USD 9.99 | USD 3.33 |
+| **Mega bundle (10 books)** ⭐ | **USD 19.99** | **USD 2.00** |
 
 - The middle option makes the mega bundle look like obvious value and raises average order value.
-- **Mental accounting:** "less than $0.07 per page", "print as many times as you like" (a real advantage over physical books).
+- **Mental accounting:** "less than USD 0.07 per page", "print as many times as you like" (a real advantage over physical books).
 - **Charm pricing** (.99/.95) fits value products like this.
 - **Anchoring:** use Etsy's Sale feature to show a struck-through price **only if** that price is the genuine regular price.
-- **Foot-in-the-door:** a low-priced mini pack (e.g. 5 pages for about $1.50) as an entry purchase. Etsy has a minimum listing price, so a "free" listing isn't possible. Buyers who purchase once are more likely to buy a bundle later.
+- **Foot-in-the-door:** a low-priced mini pack (e.g. 5 pages for about USD 1.50) as an entry purchase. Etsy has a minimum listing price, so a "free" listing isn't possible. Buyers who purchase once are more likely to buy a bundle later.
 
 ## 5. Trust and conversion
 
