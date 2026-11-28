@@ -39,9 +39,9 @@ DATA = [
  ("Coleus", "Pokok Ati-ati", "Coleus scutellarioides", "Coleus is famous for its colourful leaves, not its flowers. Its real flowers are tiny and bluish-purple.", ["#D81B60", "#C0CA33", PUR]),
  ("Ixora", "Bunga Jejarum", "Ixora", "Each tiny flower has a long, thin tube like a needle, and one cluster can hold dozens of little flowers!", [RED, ORG, GRN]),
  ("Crown of Thorns", "Bunga Janda Kaya", "Euphorbia milii", "The red parts are special leaves, not petals. The stem is covered in thorns and its white sap can sting your skin.", [RED, GRN, "#6D4C41"]),
- ("Rafflesia", "Bunga Pakma", "Rafflesia", "Rafflesia is the biggest single flower in the world, almost 1 metre (3 feet) wide! It has no leaves, stem or roots, and it smells like rotting meat to attract flies.", ["#B23A2B", WHT, "#6D4C41"]),
+ ("Rafflesia", "Bunga Pakma", "Rafflesia", "Rafflesia is the biggest single flower in the world, almost 1 metre (3 feet) wide! It has no leaves, stem or roots, and it smells like rotting meat to attract flies.", ["#B23A2B", "#F6DECD", "#6D4C41", GRN]),
  ("Sacred Lotus", "Bunga Seroja", "Nelumbo nucifera", "Lotus leaves are waterproof: water drops roll off and carry the dirt away! Its seeds are made into the sweet filling of mooncakes.", [PNK, YEL, GRN]),
- ("Periwinkle", "Bunga Tapak Dara", "Catharanthus roseus", "Scientists use substances from this little flower to make cancer medicine. But never eat it, because it's poisonous!", [PNK, WHT, GRN]),
+ ("Periwinkle", "Bunga Tapak Dara", "Catharanthus roseus", "Scientists use substances from this little flower to make cancer medicine. But never eat it, because it's poisonous!", ["#F378B2", "#C8195A", GRN, "#CD6E46"]),
 ]
 NO_ART = set()            # all illustrations present
 NO_INSET = {9}            # example colour wrong (purple)
