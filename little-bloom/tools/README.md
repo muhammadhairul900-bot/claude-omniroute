@@ -11,6 +11,7 @@ Requires Python 3 with `reportlab`, `pymupdf`, `numpy`, `pillow`.
 | `python3 build_en.py ../Activity-Pages-p95-107-Answer-Key-EN.pdf` | p. 95–108 |
 | `python3 build_109.py ../Page-109-Thank-You-Sources-EN.pdf` | p. 109 |
 | `python3 combine.py` / `python3 combine.py --with-levels` | combined book |
+| `python3 build_listing_images.py ../listing-images` | 10 Etsy listing images (2000×2000) |
 
 ## Adding new illustrations
 - **Easy / Challenge:** save files in `little-bloom/illustrations/` as `easy_01_hibiscus.png` … `challenge_30_periwinkle.png` (only the number matters), then run `build_levels.py` and `combine.py --with-levels`.
