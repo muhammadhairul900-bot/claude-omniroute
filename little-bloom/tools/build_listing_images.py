@@ -83,9 +83,14 @@ def save(im, name):
     print("saved", name)
 
 
-# 01 Cover (uses current cover; replace with the new one later)
+# 01 Cover (uses ../cover.png when present)
 im, d = canvas_("Tropical Flower Coloring Book", "30 real flowers from Malaysia  •  Ages 3–10")
-cov = page(ORIG, 0, 1000)
+_cp = os.path.join(L, "cover.png")
+if os.path.exists(_cp):
+    cov = Image.open(_cp).convert("RGB")
+    cov = cov.resize((1000, int(cov.height * 1000 / cov.width)), Image.LANCZOS)
+else:
+    cov = page(ORIG, 0, 1000)
 paste_card(im, page(FLOW, 0, 620), (1180, 520), angle=-8)
 paste_card(im, cov, (280, 330), angle=3)
 pill(d, 1500, 1500, "Fun Facts + Activities")
