@@ -1,0 +1,18 @@
+# Build tools – Flowers Coloring Book Vol. 1, Edition 2.0
+
+Everything needed to rebuild the PDFs is in this folder (fonts, cleaned line art, colour examples, original cover/back).
+Requires Python 3 with `reportlab`, `pymupdf`, `numpy`, `pillow`.
+
+| Script | Output (in `little-bloom/`) |
+|---|---|
+| `python3 build_front.py ../Front-Pages-p2-4-EN.pdf` | p. 2–4 |
+| `python3 build_flowers.py ../Flower-Pages-p5-34-EN.pdf` | p. 5–34 flower pages + fact cards |
+| `python3 build_levels.py ..` | p. 35–64 Easy and p. 65–94 Challenge |
+| `python3 build_en.py ../Activity-Pages-p95-107-Answer-Key-EN.pdf` | p. 95–108 |
+| `python3 build_109.py ../Page-109-Thank-You-Sources-EN.pdf` | p. 109 |
+| `python3 combine.py` / `python3 combine.py --with-levels` | combined book |
+
+## Adding new illustrations
+- **Easy / Challenge:** save files in `little-bloom/illustrations/` as `easy_01_hibiscus.png` … `challenge_30_periwinkle.png` (only the number matters), then run `build_levels.py` and `combine.py --with-levels`.
+- **Medium (p. 5–34):** replace `crops/fNN.png` (NN = flower number 01–30, e.g. `f28.png` for Rafflesia), remove that number from `NO_ART` in `build_flowers.py`, and re-run it.
+- **New cover:** save it as `little-bloom/cover.pdf` (1 page, A4) and re-run `combine.py`.
