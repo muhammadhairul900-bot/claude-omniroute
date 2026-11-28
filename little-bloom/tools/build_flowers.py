@@ -43,8 +43,8 @@ DATA = [
  ("Sacred Lotus", "Bunga Seroja", "Nelumbo nucifera", "Lotus leaves are waterproof: water drops roll off and carry the dirt away! Its seeds are made into the sweet filling of mooncakes.", [PNK, YEL, GRN]),
  ("Periwinkle", "Bunga Tapak Dara", "Catharanthus roseus", "Scientists use substances from this little flower to make cancer medicine. But never eat it, because it's poisonous!", [PNK, WHT, GRN]),
 ]
-NO_ART = {28, 30}          # new drawings needed
-NO_INSET = {9, 28, 30}      # example colour wrong / missing
+NO_ART = set()            # all illustrations present
+NO_INSET = {9}            # example colour wrong (purple)
 
 
 def fit(text, font, maxsize, width):

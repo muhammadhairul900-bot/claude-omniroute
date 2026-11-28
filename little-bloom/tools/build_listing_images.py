@@ -111,7 +111,7 @@ for k in range(30):
     x, y = int(x0 + c * cw), int(y0 + r * ch)
     d.rounded_rectangle((x + 8, y + 8, x + cw - 8, y + ch - 8), radius=24, fill=(255, 255, 255), outline=(230, 220, 205), width=3)
     f = os.path.join(T, "crops", f"f{k + 1:02d}.png")
-    if os.path.exists(f) and (k + 1) not in (28, 30):
+    if os.path.exists(f):
         a = Image.open(f).convert("RGB")
         a.thumbnail((cw - 60, ch - 90))
         im.paste(a, (int(x + (cw - a.width) / 2), int(y + 22 + (ch - 90 - a.height) / 2)))
